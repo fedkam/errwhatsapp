@@ -4,8 +4,7 @@ import './App.css';
 
 function App() {
   const message = encodeURIComponent('test')
-  //const phone = '7XXXXXXXXXX'
-  const phone = '79619671404'  
+  const phone = '7XXXXXXXXXX'
   const url = `https://wa.me/${phone}?text=${message}`
   return (
     <div className="App">
